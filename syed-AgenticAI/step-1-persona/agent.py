@@ -1,6 +1,6 @@
 import os
 from openai import OpenAI
- 
+
 class Agent:
     def __init__(self, name: str):
         self._name = name

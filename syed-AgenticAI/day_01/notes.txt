@@ -1,0 +1,6 @@
+from google.colab import drive
+drive.mount('/content/drive')
+!curl -sSL https://ollama.ai/install.sh | bash
+import os
+os.environ['PATH'] += ":/content/ollama/bin"
+!ollama start
