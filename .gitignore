@@ -6,4 +6,12 @@ app_finetunning.py
 crewAI-examples/
 fine_tunning.py
 crew_travelguidance.py
-
+../../../../.DS_Store
+../../../../.gitignore
+../../../../MyAgent_persona.ipynb
+../../../../agent-examples/
+../../../../agent-framework/
+../../../../ai-engineering-hub/
+../../../../day_01/
+../../../../master-crewai-course/
+../../../
