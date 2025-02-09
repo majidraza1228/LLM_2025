@@ -5,3 +5,4 @@ import os
 os.environ['PATH'] += ":/content/ollama/bin"
 !ollama start
 source ~/.bashrc
+ollama run llama3.2:1b
