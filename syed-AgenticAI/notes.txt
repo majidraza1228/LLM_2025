@@ -4,3 +4,4 @@ drive.mount('/content/drive')
 import os
 os.environ['PATH'] += ":/content/ollama/bin"
 !ollama start
+source ~/.bashrc
