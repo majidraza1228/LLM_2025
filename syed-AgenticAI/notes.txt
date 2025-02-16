@@ -5,4 +5,26 @@ import os
 os.environ['PATH'] += ":/content/ollama/bin"
 !ollama start
 source ~/.bashrc
+<<<<<<< HEAD
 ollama run llama3.2:1b
+docker rm -v -f $(docker ps -qa)
+
+cd /Users/syedraza/Library/CloudStorage/GoogleDrive-majidraza@gmail.com/MY\ Drive/LLM-2025/LLM_2025
+
+/Users/syedraza/Library/CloudStorage/GoogleDrive-majidraza@gmail.com/My Drive/LLM-2025/LLM_2025
+source /Users/syedraza/.bash_profile
+
+https://serper.dev/api-key=  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
+https://medium.com/@samarrana407/how-to-train-ai-agents-with-crewai-1e3a2cf74712
+
+
+==================
+colab
+==================
+
+from google.colab import drive
+drive.mount('/content/drive')
+cd /content/drive/MyDrive/LLM-2025/LLM_2025
+=======
+ollama run llama3.2:1b
+>>>>>>> parent of 6be0f69 (update)
