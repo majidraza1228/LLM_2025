@@ -5,7 +5,6 @@ import os
 os.environ['PATH'] += ":/content/ollama/bin"
 !ollama start
 source ~/.bashrc
-<<<<<<< HEAD
 ollama run llama3.2:1b
 docker rm -v -f $(docker ps -qa)
 
@@ -25,6 +24,3 @@ colab
 from google.colab import drive
 drive.mount('/content/drive')
 cd /content/drive/MyDrive/LLM-2025/LLM_2025
-=======
-ollama run llama3.2:1b
->>>>>>> parent of 6be0f69 (update)
