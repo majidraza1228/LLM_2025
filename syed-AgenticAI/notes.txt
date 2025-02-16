@@ -24,3 +24,4 @@ colab
 from google.colab import drive
 drive.mount('/content/drive')
 cd /content/drive/MyDrive/LLM-2025/LLM_2025
+!nohup ollama start &
