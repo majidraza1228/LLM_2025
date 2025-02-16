@@ -7,13 +7,13 @@ os.environ['PATH'] += ":/content/ollama/bin"
 source ~/.bashrc
 ollama run llama3.2:1b
 docker rm -v -f $(docker ps -qa)
-
+ source /Users/syedraza/.bash_profile
 cd /Users/syedraza/Library/CloudStorage/GoogleDrive-majidraza@gmail.com/MY\ Drive/LLM-2025/LLM_2025
 
 /Users/syedraza/Library/CloudStorage/GoogleDrive-majidraza@gmail.com/My Drive/LLM-2025/LLM_2025
 source /Users/syedraza/.bash_profile
 
-https://serper.dev/api-key=  H
+https://serper.dev/api-key=  **************
 https://medium.com/@samarrana407/how-to-train-ai-agents-with-crewai-1e3a2cf74712
 
 
