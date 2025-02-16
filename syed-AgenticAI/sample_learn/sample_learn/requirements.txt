@@ -1,0 +1,4 @@
+crewai
+onnxruntime-silicon==1.13.1; sys_platform == 'darwin' and platform_machine == 'arm64'
+onnxruntime==1.15.1; sys_platform == 'darwin' and platform_machine == 'x86_64'
+onnxruntime==1.15.1; sys_platform == 'linux' or sys_platform == 'win32' 
