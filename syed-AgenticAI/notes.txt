@@ -13,7 +13,7 @@ cd /Users/syedraza/Library/CloudStorage/GoogleDrive-majidraza@gmail.com/MY\ Driv
 /Users/syedraza/Library/CloudStorage/GoogleDrive-majidraza@gmail.com/My Drive/LLM-2025/LLM_2025
 source /Users/syedraza/.bash_profile
 
-https://serper.dev/api-key=  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
+https://serper.dev/api-key=  H
 https://medium.com/@samarrana407/how-to-train-ai-agents-with-crewai-1e3a2cf74712
 
 
