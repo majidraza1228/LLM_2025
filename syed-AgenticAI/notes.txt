@@ -14,7 +14,7 @@ cd /Users/syedraza/Library/CloudStorage/GoogleDrive-majidraza@gmail.com/MY\ Driv
 source /Users/syedraza/.bash_profile
 
 https://serper.dev/api-key=  **************
-https://medium.com/@samarrana407/how-to-train-ai-agents-with-crewai-1e3a2cf74712
+
 
 ******************************************************
 ======================================================
@@ -23,18 +23,17 @@ colab
 
 from google.colab import drive
 drive.mount('/content/drive')
-cd /content/drive/MyDrive/LLM-2025/LLM_2025
+!cd /content/drive/MyDrive/LLM-2025/LLM_2025
 
 ==== Ollama =====
 !curl -sSL https://ollama.ai/install.sh | bash
 !nohup ollama start &
-ollama run llama3.1:1b
+!ollama run llama3.1
 
 
 ==== CrewAI ====
 !pip install crewai
 !pip install crewai-tools
-!pip install crewai-tools-ollama
 !pip install crewai-tools-serper
 !pip install crewai-tools-openai
 !pip install crewai-tools-anthropic
@@ -42,15 +41,24 @@ ollama run llama3.1:1b
 
 
 /// 
-
+pip install crewai
 pip install "crewai[tools]"
 pip install --upgrade "tokenizers>=0.21,<0.22"
 
 pip install poetry
 poetry install
-poetry shell    
 
 
+
+
+
+=========  To be removed =========
+
+   
+
+
+====== Readings =========
+https://medium.com/the-ai-forum/create-a-sql-agent-using-crewai-and-groq-005895ba31b3
 
      
-
+https://medium.com/@samarrana407/how-to-train-ai-agents-with-crewai-1e3a2cf74712
