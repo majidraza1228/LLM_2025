@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Todo App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <form class="todo-form" action="{{ url_for('add_todo') }}" method="POST">
+            <div class="input-group">
+                <input type="text" name="title" placeholder="Add a new task..." required>
+                <button type="submit">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+        </form>
+
+        <div class="todo-list">
+            {% for todo in todos %}
+            <div class="todo-item {% if todo.completed %}completed{% endif %}" data-id="{{ todo.id }}">
+                <div class="todo-content">
+                    <input type="checkbox" class="todo-checkbox" {% if todo.completed %}checked{% endif %}>
+                    <span class="todo-title">{{ todo.title }}</span>
+                </div>
+                <button class="delete-btn">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html> 
